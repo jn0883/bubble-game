@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(164, 240, 164);
+}
+
+.startbutton{
+    height: 50px;
+    width: 110px;
+    margin-bottom:20px ;
+    background-color: rgb(3, 160, 3);
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.startbutton:hover{
+    background-color: rgb(68, 248, 68);
+}
+
+.container{
+    height: 78%;
+    width: 53%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.upperpart{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(3, 160, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 100px;
+    border-bottom: 2px solid black;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.mincontainer{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bottompart{
+    height: calc(100% - 100px);
+    width: 100%;
+    background-color: rgb(241, 240, 240);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.bubble{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(3, 160, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(2, 107, 2);
+}
+ 
+
+
